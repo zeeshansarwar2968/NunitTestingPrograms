@@ -13,6 +13,8 @@ namespace NunitTesting
             Console.WriteLine("");
             Console.WriteLine("2. Convert the temperature to either Fahrenheit/Celcius");
             Console.WriteLine("");
+            Console.WriteLine("3. Derive the monthly payments as per provided data");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t\t Press 0 to exit the program");
             Console.WriteLine("");
 
@@ -31,6 +33,9 @@ namespace NunitTesting
                         break;
                     case 2:
                         TemperatureConversion.CalculateTemperature();
+                        break;
+                    case 3:
+                        MonthlyPayment.PaymentCalculation();
                         break;
                     default:
                         Console.WriteLine("Please Enter from the given choice");
