@@ -15,6 +15,8 @@ namespace NunitTesting
             Console.WriteLine("");
             Console.WriteLine("3. Derive the monthly payments as per provided data");
             Console.WriteLine("");
+            Console.WriteLine("4. Find square root using Newton's method");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t\t Press 0 to exit the program");
             Console.WriteLine("");
 
@@ -36,6 +38,9 @@ namespace NunitTesting
                         break;
                     case 3:
                         MonthlyPayment.PaymentCalculation();
+                        break;
+                    case 4:
+                        SquareRoot.Sqrt();
                         break;
                     default:
                         Console.WriteLine("Please Enter from the given choice");
