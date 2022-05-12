@@ -17,6 +17,8 @@ namespace NunitTesting
             Console.WriteLine("");
             Console.WriteLine("4. Find square root using Newton's method");
             Console.WriteLine("");
+            Console.WriteLine("5. Decimal to Binary Conversion");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t\t Press 0 to exit the program");
             Console.WriteLine("");
 
@@ -41,6 +43,9 @@ namespace NunitTesting
                         break;
                     case 4:
                         SquareRoot.Sqrt();
+                        break;
+                    case 5:
+                        BinaryConversion.ToBinary();
                         break;
                     default:
                         Console.WriteLine("Please Enter from the given choice");
