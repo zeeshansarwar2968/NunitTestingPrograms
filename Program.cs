@@ -19,6 +19,8 @@ namespace NunitTesting
             Console.WriteLine("");
             Console.WriteLine("5. Decimal to Binary Conversion");
             Console.WriteLine("");
+            Console.WriteLine("6. Nibble Swapping");
+            Console.WriteLine("");
             Console.WriteLine("\t\t\t\t Press 0 to exit the program");
             Console.WriteLine("");
 
@@ -46,6 +48,9 @@ namespace NunitTesting
                         break;
                     case 5:
                         BinaryConversion.ToBinary();
+                        break;
+                    case 6:
+                        NibbleSwap.NSwap();
                         break;
                     default:
                         Console.WriteLine("Please Enter from the given choice");
